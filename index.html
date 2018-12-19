@@ -7,11 +7,11 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
     <link rel="stylesheet" href="./css/main.css">
-    <title>Document</title>
+    <title>Portfolio</title>
 </head>
 <body>
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <a class="navbar-brand" href="#">Navbar</a>
+                <a class="navbar-brand" href="#"></a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
@@ -21,25 +21,116 @@
                       <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Features</a>
+                      <a class="nav-link" href="Resume.html">Resume</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link" href="#">Pricing</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link disabled" href="#">Disabled</a>
-                    </li>
+                        <a class="nav-link" href="#contact">Contact</a>
+                      </li>
                   </ul>
                 </div>
               </nav>
               <!-- jumbotron -->
               <div class="jumbotron jumbotron-fluid">
                     <div class="container">
-                      <h1 class="display-4">Fluid jumbotron</h1>
-                      <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+                      <h1 class="display-4">Arion Pierce</h1>
+                      
                     </div>
-                  </div>
+                  </div> 
+                  <link rel="stylesheet" href="./css/about.css">
+                  <center>
+                    <section id="about"><p class="lead">About Arion</p>
+                      Life started in the Hoosier state better known as Indiana.
+                    I'd like to think that my life is more than just corn. I've always been super adventurous
+                    since I was able to walk. I'd run outside on a daily and make sure all of the evil villians
+                    were defeated before my mom called me in before dinner. 
+                    Having traveled to more than 15 countries I'd like to say I still hold that adventurous
+                    title. Exploring the world brings excitement to my life. I like trying new foods, learning
+                    different cultures, rollerskating, cooking, and making others happy. 
+                  </section></center>
 
+                  <br><center>
+                  Take a peek at my <a target= blank href= "https://docs.google.com/document/d/1Fi9U5yJnmA8z92zRSGM_mdxxAd3yqS2SPd_vw9T4ooc/edit?usp=sharing">resume</a> and learn more about me on  <a target= blank href= "https://www.linkedin.com/in/arion-p-66757146/"> LinkedIn.</a>
+                </center>
+<hr>
+                  <!-- Creature -->
+                 <center><div id= "portfolio">Portfolio</div>
+                  <div class= "imageContainer">
+                    <a href= "https://codepen.io/ArionP/pen/qQwzZK" target= "blank">
+                    <img src= "./Assets/img/Creature.png" style= "width: 200px; height: 100px;">
+
+                    <a href= "https://songsterr-ap.firebaseapp.com/" target= "blank">
+                      <img src= "./API.png" style= "width: 200px; height: 100px;">
+
+                      <a href= "file:///C:/Users/Arion/Desktop/javascript-library/0-JavaScript-PreWork/Week%201-Practice/signUp.html" target= "blank">
+                        <img src= "./Assets/img/SignUp.png" style= "width: 200px; height: 100px;">
+                    </a></center>
+                <hr>
+                </div>
+
+
+   <section id="portfolio"></section>
+   <section id="contact">
+     <div class="container">
+       <h2 class="text-center text-uppercase"></h2>
+       <div class="row">
+        <form action="https://formspree.io/arionpierce@gmail.com" method="POST">
+            <div class="control-group">
+                <div class="form-group">
+                  <label>Contact Me!</label>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Your Name"
+                    id="name"
+                    required
+                    data-validation-required-message="Please enter your name"
+                    name="name"
+                    >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <label></label>
+                  <input
+                    type="email"
+                    class="form-control"
+                    placeholder="Your Email"
+                    id="email"
+                    required
+                    data-validation-required-message="Please enter your email"
+                    name="_replyto"
+                  >
+                  <p class="help-block text-danger"></p>
+                </div>
+              </div>
+              <div class="control-group">
+                <div class="form-group">
+                  <textarea
+                    class="form-control"
+                    rows="7"
+                    placeholder="Your Message"
+                    id="message"
+                    required
+                    data-validation-required-message="Please leave a message"
+                    name="message"
+                  ></textarea>
+                  <p class="help-block text-danger"></p>
+        </div>
+              </div>
+              <div class="text-center">
+                <div id="success"></div>
+                <button type="submit" class="btn btn-lg btn-black">
+                  <i class="fa fa-paper-plane-o" aria-hidden="true"></i>
+                  Send Message
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+        </section>
+        <footer></footer>
+        
 
         <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
