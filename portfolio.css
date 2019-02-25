@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(196, 228, 17);
+    font-size: 26px;
+    margin: 8%;
+}
+.jumbotron {
+    background: url(http://babiestravellite.com/wp-content/uploads/2015/08/Do-You-Need-Insurance-When-Abroad.jpg)
+    no-repeat center;
+    background-size: cover;
+    color: white;
+    color: rgb(247, 33, 97);
+    text-align: center;
+} 
+#nav-content {
+    margin-left: 75%;
+    margin-left: 5%;
+} 
